@@ -1,0 +1,134 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+header h1 {
+    margin-top: 3%;
+    margin-right: 10%;
+    font-size: 85px;
+    color: #78b4db; 
+    text-align: center;
+}
+header img
+{
+    margin-top: 2%;
+    margin-left: -4%;
+    margin-bottom: -3%;
+    float: left;
+    width: 13%;
+    height: auto;
+}
+
+header
+{
+    border-bottom: 2.5px solid #78b4db;
+    display: inline-block;
+    width: 100%;
+    background-color: aliceblue;
+    padding-bottom: 1.5%;
+}
+header a 
+{
+
+    text-decoration: none;
+    color: white;
+    
+}
+header nav ul li 
+{
+    margin-top: 2%;
+    list-style: none;
+    margin-left: 80.5%;
+    float: left;
+    list-style: none;
+    margin-left: 2.5%;
+    border: 5px solid   #78b4db;
+    background-color:   #78b4db;
+    padding: 0.5%;
+    border-radius: 13px;
+    text-transform: capitalize;
+    text-align: center;
+}
+header nav ul
+{
+    margin-left: 16%;
+    margin-top: 0.5%;
+}
+header h2
+{
+    font-size: 25px;
+}
+.pfp
+{
+    float: right;
+    width: 5.5%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: -2%;
+    margin-right: 1%;
+}
+section
+{
+    background-color: rgba(255, 255, 255, 0.4); 
+    background-image: url("img/playa.jfif");
+    overflow: hidden;
+    background-size: cover;
+    height:300px;
+    border-bottom: 2.5px solid #78b4db;
+}
+main img
+{
+    margin-top: 3%;
+    float: left;
+    margin-left: 4.5%;
+    margin-right: 3%;
+    width: 25%;
+    height: 220px;
+    border-radius: 5%;
+}
+section div
+{
+    background-color: white;
+}
+
+div h1
+{
+    float: left;
+    font-size: 20px;
+    margin-right: 1.3%;
+    margin-left: 0.7%;
+}
+div input, div select
+{
+    float: left;
+    margin-top: 0.2%;
+}
+div button
+{
+    margin-left: 1%;
+    background-color: #78b4db;
+    padding: 0.5%;
+    margin-left: 0.35%;
+    border-radius: 8px;
+    margin-top: -0.4%;
+}
+div
+{
+    margin-top: 6%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-radius: 10px;
+    border: 2.5px solid #78b4db;
+}
+main
+{
+    background-color:aliceblue;
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 2%;
+}
