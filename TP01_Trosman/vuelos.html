@@ -1,42 +1,78 @@
+<!-- Guía de viajes: presentación de destinos turísticos con imágenes, descripciones y consejos útiles -->
+<!-- HEADER CON: <Home (Logo de la empresa)> --- NAV< <Alojamientos> <Vuelos> <Vehículos> <Contáctanos> > --- <Perfil> -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TurismoYa</title>
     <link rel="stylesheet" href="stylesindex.css">
 </head>
-    <header class="unheader">
-    <img src="img/logoheader.png" alt="Logo" srcset="">
-    <a href="profile.html">
-        <img src="img/pfp.jpg" alt="Foto de perfil" class="pfp">
-    </a>
-    <a href="index.html">
-        <h1>TurismoYa</h1>
-    </a>
-    <nav>
-        <ul>
-            <li><a href="alojamientos.html">
-                    <h2>Alojamientos</h2>
-                </a></li> <!-- Linkear con html de Alojamientos -->
-            <li><a href="vuelos.html">
-                    <h2 class="Seleccion">Vuelos</h2>
-                </a></li> <!-- Linkear con html de Vuelos -->
-            <li><a href="vehiculos.html">
-                    <h2>Vehículos</h2>
-                </a></li> <!-- Linkear con html de Vehiculos -->
-            <li><a href="actividades.html">
-                    <h2>Actividades</h2>
-                </a></li> <!-- Linkear con html de Actividades -->
-            <li><a href="contacto.html">
-                    <h2>Contáctanos</h2>
-                </a></li> <!-- Linkear con html de Contacto -->
-        </ul>
-    </nav>
-</header>
 
-</main>
-<footer>
+<body>
+    <header class="unheader">
+        <img src="img/logoheader.png" alt="Logo" srcset="">
+        <a href="profile.html">
+            <img src="img/pfp.jpg" alt="Foto de perfil" class="pfp">
+        </a>
+        <a href="index.html">
+            <h1  class="Seleccion">TurismoYa</h1>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="alojamientos.html">
+                        <h2>Alojamientos</h2>
+                    </a></li> <!-- Linkear con html de Alojamientos -->
+                <li><a href="vuelos.html">
+                        <h2  class="Seleccion">Vuelos</h2>
+                    </a></li> <!-- Linkear con html de Vuelos -->
+                <li><a href="vehiculos.html">
+                        <h2>Vehículos</h2>
+                    </a></li> <!-- Linkear con html de Vehiculos -->
+                <li><a href="actividades.html">
+                        <h2>Actividades</h2>
+                    </a></li> <!-- Linkear con html de Actividades -->
+                <li><a href="contacto.html">
+                        <h2>Contáctanos</h2>
+                    </a></li> <!-- Linkear con html de Contacto -->
+            </ul>
+        </nav>
+    </header>
+    <main class="unmain">
+        <section class="unsection">
+            <div>
+                <form action="/buscar" method="get">
+                    <h1>Origen</h1>
+                    <input type="text" name="q" placeholder="Ingrese una ciudad">
+                    <h1>Destino</h1>
+                    <input type="text" name="q" placeholder="Ingrese una ciudad">
+                    <h1>Salida</h1>
+                    <input type="datetime-local" id="salida" name="salida">
+                    <h1>Clase</h1>
+                    <select id="opcion" name="opcion" required>
+                        <option value="" disabled selected hidden>Ingresa la Clase</option>
+                        <option value="opcion1">Todas</option>
+                        <option value="opcion2">Ecónomica</option>
+                        <option value="opcion3">Premium</option>
+                        <option value="opcion4">Business</option>
+                        <option value="opcion5">Primera</option>
+                    </select>
+                    <h1>Moneda</h1>
+                    <select id="opcionb" name="opcionb" required>
+                        <option value="" disabled selected hidden>Ingresa moneda</option>
+                        <option value="opcion1">u$s Dólares</option>
+                        <option value="opcion2">$ Pesos</option>
+                    </select>
+                    <button type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </section>
+        <img src="img/travel1.jpg" alt="" srcset="">
+        <img src="img/travel2.jpg" alt="" srcset="">
+        <img src="img/travel3b.jpg" alt="" srcset="">
+    </main>
+    <footer>
   <pre>
 
   
@@ -78,7 +114,6 @@
 
 
 </footer>
-<body>
-    
 </body>
+
 </html>

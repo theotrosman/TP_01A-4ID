@@ -1,11 +1,15 @@
+<!-- Guía de viajes: presentación de destinos turísticos con imágenes, descripciones y consejos útiles -->
+<!-- HEADER CON: <Home (Logo de la empresa)> --- NAV< <Alojamientos> <Vuelos> <Vehículos> <Contáctanos> > --- <Perfil> -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TurismoYa</title>
     <link rel="stylesheet" href="stylesindex.css">
 </head>
+
 <body>
     <header class="unheader">
         <img src="img/logoheader.png" alt="Logo" srcset="">
@@ -35,6 +39,39 @@
             </ul>
         </nav>
     </header>
+    <main class="unmain">
+        <section class="unsection3">
+            <div>
+                <form action="/buscar" method="get">
+                    <h1>Ciudad</h1>
+                    <input type="text" name="q" placeholder="Ingrese una ciudad">
+                    <h1>Día</h1>
+                    <input type="datetime-local" id="salida" name="salida">
+                    <h1>Personas</h1>
+                    <input type="text" name="q" placeholder="Ingrese la cantidad de pers.">
+                    <h1>Actividad</h1>
+                    <select id="opcion" name="opcion" required>
+                        <option value="" disabled selected hidden>Ingrese la actividad</option>
+                        <option value="opcion1">Nado con tiburones</option>
+                        <option value="opcion2">Globo aeroestático</option>
+                        <option value="opcion3">Parque de diversiones</option>
+                        <option value="opcion4">Camping</option>
+                        <option value="opcion5">Otras...</option>
+                    </select>
+                    <h1>Moneda</h1>
+                    <select id="opcionb" name="opcionb" required>
+                        <option value="" disabled selected hidden>Ingresa moneda</option>
+                        <option value="opcion1">u$s Dólares</option>
+                        <option value="opcion2">$ Pesos</option>
+                    </select>
+                    <button type="submit">BUSCAR</button>
+                </form>
+            </div>
+        </section>
+        <img src="img/travel1.jpg" alt="" srcset="">
+        <img src="img/travel2.jpg" alt="" srcset="">
+        <img src="img/travel3b.jpg" alt="" srcset="">
+    </main>
     <footer>
   <pre>
 
@@ -78,4 +115,5 @@
 
 </footer>
 </body>
+
 </html>
