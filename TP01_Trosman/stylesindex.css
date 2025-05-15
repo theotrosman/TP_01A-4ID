@@ -67,7 +67,7 @@ header img {
     float: right;
     border-radius: 50%;
     margin-top: 1%;
-    width: 7%;
+    width: 4%;
     height: auto;
     margin-right: 0.5%;
 }
@@ -76,19 +76,26 @@ header img {
     background-image: url("img/gifviaje.gif");
 
 }
+
 .unsection2 {
     background-image: url("img/alojamientos.gif");
 
 }
+
 .unsection3 {
     background-image: url("img/familiavacaciones.gif");
 
 }
+
 .unsection4 {
     background-image: url("img/contactogif.gif");
 
 }
-.unsection, .unsection2, .unsection3, .unsection4 {
+
+.unsection,
+.unsection2,
+.unsection3,
+.unsection4 {
     background-color: rgba(255, 255, 255, 0.4);
     overflow: hidden;
     background-size: cover;
@@ -98,11 +105,16 @@ header img {
     padding-top: -0.1%;
 }
 
-.unsection div, .unsection2 div, .unsection3 div , .unsection4 div {
+.unsection div,
+.unsection2 div,
+.unsection3 div,
+.unsection4 div {
     background-color: white;
 }
 
-.unsection div h1, .unsection2 h1, .unsection3 h1 {
+.unsection div h1,
+.unsection2 h1,
+.unsection3 h1 {
     float: left;
     font-size: 20px;
     margin-right: 1.3%;
@@ -110,12 +122,21 @@ header img {
 }
 
 .unsection div input,
-.unsection div select, .unsection2 div input, .unsection2 div select,  .unsection3 div input, .unsection3 div select , .unsection4 div select, .unsection4 div input{
+.unsection div select,
+.unsection2 div input,
+.unsection2 div select,
+.unsection3 div input,
+.unsection3 div select,
+.unsection4 div select,
+.unsection4 div input {
     float: left;
     margin-top: 0.2%;
 }
 
-.unsection div button, .unsection2 div button, .unsection3 div button, .unsection4 div button {
+.unsection div button,
+.unsection2 div button,
+.unsection3 div button,
+.unsection4 div button {
     margin-left: 1%;
     background-color: #78b4db;
     padding: 0.5%;
@@ -124,7 +145,10 @@ header img {
     margin-top: -0.4%;
 }
 
-.unsection div, .unsection2 div, .unsection3 div, .unsection4 div{
+.unsection div,
+.unsection2 div,
+.unsection3 div,
+.unsection4 div {
     margin-top: 6%;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -134,14 +158,16 @@ header img {
     border: 2.5px solid #78b4db;
 }
 
-.unmain, .mainautos{
+.unmain,
+.mainautos {
     background-color: aliceblue;
     display: inline-block;
     width: 100%;
     padding-bottom: 2%;
 }
 
-.unmain img, .mainautos img {
+.unmain img,
+.mainautos img {
     margin-top: 3%;
     float: left;
     margin-left: 4.5%;
@@ -165,7 +191,7 @@ header img {
     margin-left: 41.5%;
     border-radius: 50%;
     height: 300px;
-    margin-top: -7.5%;
+    margin-top: 3.5%;
     width: auto;
     border: 2.5px solid #78b4db;
 }
@@ -180,7 +206,7 @@ header img {
 }
 
 .headerpfp h1 {
-    margin-right: 10.5%;
+    margin-right: 9%;
     font-size: 85px;
     color: #78b4db;
     text-shadow: 2px 0px 0px rgb(255, 255, 255),
@@ -286,10 +312,63 @@ footer pre {
     height: auto;
     margin-left: 24%;
 }
- .unsection4 h1
- {
+
+.unsection4 h1 {
     float: left;
     font-size: 20px;
     margin-right: 1.3%;
     margin-left: 3%;
- }
+}
+
+.indexmain {
+    background-image: url("img/gifviaje.gif");
+    height: 500px;
+    background-size: cover;
+    padding-top: 13%;
+}
+
+.indexmain div {
+    background-color: aliceblue;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2.5px solid #78b4db;
+    border-radius: 10px;
+    text-align: center;
+    padding: 2%;
+}
+
+.indexmain div h1,.indexmain div h2 {
+    color: #78b4db;
+    margin-bottom: 3%;
+    font-size: 40px;
+}
+.indexmain div h1
+{
+    font-size: 65px;
+}
+.profile-stats {
+    background-color: white;
+    border-radius: 15px;
+    width: 50%;
+    margin: 2% auto;
+    padding: 2%;
+    text-align: center;
+}
+
+.profile-stats h2 {
+    color: #78b4db;
+    font-size: 40px;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.profile-stats ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.profile-stats li {
+    font-size: 20px;
+    margin: 0.6rem 0;
+    color: #444;
+}

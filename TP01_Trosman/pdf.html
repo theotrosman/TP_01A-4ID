@@ -1,36 +1,42 @@
+<!-- Guía de viajes: presentación de destinos turísticos con PDF embebido -->
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TurismoYa - Perfil</title>
+    <title>TurismoYa</title>
     <link rel="stylesheet" href="stylesindex.css">
 </head>
 
 <body>
-    <header class="headerpfp">
+    <header class="unheader">
+        <img src="img/logoheader.png" alt="Logo" srcset="">
+        <a href="profile.html">
+            <img src="img/pfp.jpg" alt="Foto de perfil" class="pfp">
+        </a>
         <a href="index.html">
             <h1>TurismoYa</h1>
         </a>
-        <img src="img/pfp.jpg" alt="Foto de perfil" class="foto-pfp">
+        <nav>
+            <ul>
+                <li><a href="alojamientos.html"><h2>Alojamientos</h2></a></li>
+                <li><a href="vuelos.html"><h2>Vuelos</h2></a></li>
+                <li><a href="vehiculos.html"><h2>Vehículos</h2></a></li>
+                <li><a href="actividades.html"><h2>Actividades</h2></a></li>
+                <li><a href="contacto.html"><h2>Contáctanos</h2></a></li>
+            </ul>
+        </nav>
     </header>
 
-    <main class="mainprofile">
-        <section class="profile-stats">
-            <h2>@theo_explorer</h2>
-            <ul>
-                <li><strong>Nivel:</strong> 🌍 Explorador Legendario</li>
-                <li><strong>Viajes realizados:</strong> 27</li>
-                <li><strong>País favorito:</strong> Islandia 🇮🇸</li>
-                <li><strong>Puntos de fidelidad:</strong> 8.530</li>
-                <li><strong>Miembro desde:</strong> Enero 2023</li>
-            </ul>
-        </section>
+    <main class="indexmain" style="display: flex; justify-content: center; padding: 2rem;">
+        <iframe src="TurismoYa_Presentacion_Ampliada.pdf" width="100%" height="500px" style="border: none;"></iframe>
     </main>
 
     <footer>
         <pre>
+
+  
 .==============================================.
 |                                              |
 |                           .'\                |
@@ -63,7 +69,7 @@
 |==============================================|
 |                  THEO TROSMAN                |
 |         https://github.com/theotrosman       |
-'=============================================='
+'=============================================='        
         </pre>
     </footer>
 </body>
