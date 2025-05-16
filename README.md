@@ -1,35 +1,69 @@
-Materia: Arte. Escuela ORT sede Almagro        
+# 🎨 TP01 - HTML + CSS  
+**Materia:** Arte  
+**Escuela:** ORT sede Almagro  
+**Año:** 4to Informática  
+**Estudiante:** Theo Trosman  
 
+---
 
-Año: 4to Informática
+## 🌐 Proyecto: Sitio Web Estático
 
+Este trabajo práctico consistió en la creación de un **sitio web estático multisección** utilizando exclusivamente HTML y CSS. El proyecto fue desarrollado en base a uno de los ejes temáticos propuestos por la cátedra y respetando el diseño de un boceto previamente creado en [Whimsical](https://whimsical.com/), con foco en la estructura semántica, la estética visual y la coherencia en el contenido.
 
+---
 
-TP 01 - HTML + CSS
+## 🧭 Temática elegida
 
-En esta actividad, cada equipo desarrollará un sitio web estático de varias secciones utilizando HTML y CSS. El objetivo es aplicar correctamente la estructura semántica del contenido, el diseño visual con CSS y una organización clara de la información. Deberán elegir una de las siguientes temáticas propuestas y construir el sitio adaptando los textos, imágenes y estilo al contexto elegido. El sitio debe incluir una página principal, secciones bien diferenciadas, uso de imágenes representativas y contenido textual coherente con el tema.
+**Guía de viajes** ✈️🌍  
+El sitio presenta distintos destinos turísticos a través de:
+- Imágenes representativas de cada lugar.
+- Descripciones e información relevante.
+- Consejos útiles para futuros viajeros.
 
+---
 
-Temáticas posibles (elijan una):
+## 🧩 Requisitos cumplidos
 
-ONG ficticia: un sitio institucional que difunda su misión, proyectos y formas de colaborar.
-Guía de viajes: presentación de destinos turísticos con imágenes, descripciones y consejos útiles.
-Portfolio creativo grupal: una página del equipo que muestre trabajos, roles y formas de contacto.
-Restaurante temático: sitio promocional con menú, historia del lugar, y formulario de reservas o contacto.
-Sitio educativo: una página de divulgación sobre un tema de interés social, científico o tecnológico.
-Comunidad gamer o fan site: espacio digital para compartir información sobre un videojuego, torneo o universo de ficción.
+- ✅ Sitio estructurado según el **boceto modelado en Whimsical**.
+- ✅ Navegador (navbar) fijo en la parte superior del sitio.
+- ✅ Dimensiones definidas con **porcentajes (%)** para adaptabilidad.
+- ✅ Uso coherente de **paleta de colores** (principal, secundario y acento).
+- ✅ Aplicación de **background-color** para diferenciar secciones.
+- ✅ Organización del layout usando **clases, float y clear**.
+- ✅ Estilo visual uniforme en **botones de acción**, respetando la paleta definida.
+- ✅ Footer estilizado con la misma identidad visual del sitio.
 
-Debe resolver los siguientes puntos:
+---
 
-Respetar el diseño del boceto modelado en Whimsical.
-Estilar el <nav> (fijarlo en la cabecera del sitio)
-Dimensionar los elementos usando principalmente % (porcentajes)
-Aplicar la paleta de colores de forma coherente, utilizando: color principal, secundario y de acento.
-Utilizar herramientas de fondo (por ejemplo background-color).
-Usar correctamente los conceptos vistos en clase sobre clases, float y clear.
-En caso de utilizar botones de acción, estilarlos teniendo en cuenta la paleta de colores definida.
-Estilar el footer.
+## 🧠 Herramientas utilizadas
 
-Formato de entrega
+- 🔤 **HTML5**
+- 🎨 **CSS3**
+- 🎨 Boceto en Whimsical
+- 🚀 Publicado en Netlify
 
-Presentar enlace del boceto en Whimsical y proyecto cargado en Netlify. El archivo a subir debe tener como nombre el apellido de los/las integrantes (máximo 2), el número de Trabajo Práctico y contener todos los archivos utilizados. 
+---
+
+## 🖼️ Diseño visual
+
+Se buscó un estilo claro, amigable y atractivo que evoque el espíritu de los viajes. El sitio hace uso de:
+- Imágenes de calidad.
+- Distribución de secciones por destino.
+- Botones interactivos con colores contrastantes.
+- Secciones responsive pensadas para escritorio.
+
+---
+
+## 📎 Entrega
+
+- 📐 Boceto en Whimsical
+- 🌐 Sitio publicado en Netlify
+- 🗂️ Carpeta entregada: `Trosman_TP01.zip` con todos los archivos del proyecto
+
+---
+
+## 🧑‍🎨 Autor
+
+Desarrollado por **Theo Trosman**  
+Estudiante de Informática - Escuela ORT Almagro  
+_"El código no solo se lee... también se siente cuando está bien hecho."_
