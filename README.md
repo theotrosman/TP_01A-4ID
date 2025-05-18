@@ -67,3 +67,4 @@ Se buscó un estilo claro, amigable y atractivo que evoque el espíritu de los v
 Desarrollado por **Theo Trosman**  
 Estudiante de Informática - Escuela ORT Almagro  
 _"El código no solo se lee... también se siente cuando está bien hecho."_
+![image](https://github.com/user-attachments/assets/0af18f87-7daf-4541-baa8-a8368e43310a)
