@@ -4,7 +4,7 @@
 **Año:** 4to Informática  
 **Estudiante:** Theo Trosman  
 
----
+--- 
 
 ## 🌐 Proyecto: Sitio Web Estático
 
